@@ -36,7 +36,7 @@ const HeroSection = () => (
             <Button
               size="lg"
               variant="outline"
-              className="rounded-full text-base px-8 font-body border-white text-white hover:bg-white hover:text-foreground"
+              className="rounded-full text-base px-8 font-body border-white text-white bg-white/10 backdrop-blur-sm hover:bg-white/20 hover:text-white"
             >
               Book Now
             </Button>
