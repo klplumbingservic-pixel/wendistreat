@@ -1,0 +1,10 @@
+{
+  // Lets a Cloudflare *Worker* project serve the built site as static files.
+  // (Cloudflare Pages projects ignore this file.)
+  "name": "wendistreat",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
