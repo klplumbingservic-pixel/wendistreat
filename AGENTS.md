@@ -1,0 +1,2 @@
+- Use HashRouter with Vite `base: "./"` — the site is also deployed to GitHub Pages (subfolder) and Cloudflare, where absolute paths and deep-link refreshes otherwise show a blank page.
+- Keep `wrangler.jsonc` serving `dist` as static assets — lets a Cloudflare Worker project run `wrangler deploy` for this static site.
